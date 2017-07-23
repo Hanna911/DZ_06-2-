@@ -1,0 +1,75 @@
+   BODY {
+    background: white; /* Цвет фона веб-страницы */
+    width: 1000px;
+  }
+
+   TABLE {
+    width: 1000px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid white; /* Прячем рамку вокруг таблицы */
+   }
+
+   /*TD, TH {
+    padding: 3px; 
+    border: 2px solid white; 
+    text-align: left; 
+}
+*/
+
+	 tr {
+	   border-bottom-width: 2px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: red; /* Цвет линии внизу */
+   }
+
+.plus {
+width: 20px;
+height: 20px;
+color: red;
+content: "+";
+}
+
+button {
+width: 20px;
+height: 20px;
+background: red;
+border: 2px red;
+text-decoration-color: white;
+}
+
+.buttonText {
+  font: 18px Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold; 
+}
+
+.button_delete {
+width: 90px;
+height: 20px;
+background: salmon;
+border: 2px salmon;
+text-decoration-color: white;
+  font: 12px Impact, fantasy, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+
+.text_summa_1 {
+  font: 18px Helvetica, Arial, sans-serif;
+  color: black;
+  text-align: right;
+}
+
+.text_summa_2 {
+  font: 12px Helvetica, Arial, sans-serif;
+  color: grey; 
+  text-align: right; 
+}
+
+.basket {
+  font: 16px Helvetica, Arial, sans-serif;
+  color: red;
+  text-align: center; 
+  font-style: italic;
+}

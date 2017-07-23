@@ -1,0 +1,24 @@
+   BODY {
+    background: white; /* Цвет фона веб-страницы */
+  }
+
+   TABLE {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid white; /* Прячем рамку вокруг таблицы */
+   }
+
+   /*TD, TH {
+    padding: 3px; 
+    border: 2px solid white; 
+    text-align: left; 
+}
+*/
+
+	tr:first-child {
+	border-bottom-width: 2px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: red; /* Цвет линии внизу */
+   }
+
+
